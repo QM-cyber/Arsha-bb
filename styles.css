@@ -1,0 +1,94 @@
+:root{
+    --primary:#37517E;
+    --t-md:0.7rem;
+    --t-sm:0.5rem;
+}
+.t-md{
+    font-size: var(--t-md)!important;
+}
+.t-sm{
+    font-size: var(--t-sm)!important;
+}
+.bg-blue{
+    background-color: var(--primary )!important;
+}
+.text-blue{
+    color: var(--primary )!important;
+
+}
+nav a{
+    color: white !important;
+    padding: var(--t-md) !important;
+}
+.img-animate{
+    animation: up-down 1s infinite linear alternate-reverse;
+}
+@keyframes up-down{
+from{
+    transform: translate(0);
+    }
+to{
+    transform: translateY(-60px);
+    }
+}
+.grey{
+    width: 20%;
+    background-color: gray;
+    margin: auto;
+    height: 2px;
+    position: relative;
+}
+.blue{
+    width: 20%;
+    background-color: aqua;
+    height: 4px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.bt-img{
+    background-image: url(https://images.alphacoders.com/158/thumb-1920-158251.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.np-img{
+    border-radius: 50%;
+}
+.social a{
+    border-radius: 100%;
+    padding: 8px;
+    background-color: grey;
+    margin: 0px 3px;
+    box-shadow: 2px 2px 4px 2px lightgray;
+    color: var(--primary);
+    font-size: 16px;
+    
+}
+.tm-img img{
+    margin:  auto;
+    display: block;
+    width: 20%;
+    border-radius: 50%;
+    border: 3px;
+}
+.geo a{
+    border-radius: 100%;
+    color: cyan;
+    display: block;
+    background-color: gray;
+    margin: 0px 3px;
+    padding: 0.3rem;
+    box-shadow: 2px 2px 4px 2px lightgray;
+    border: 3px grey;
+}
+.df-icon{
+    display: flex;
+    flex-direction: column;
+}
+.df-cl{
+    flex-direction: column;
+    display: flex;
+}
